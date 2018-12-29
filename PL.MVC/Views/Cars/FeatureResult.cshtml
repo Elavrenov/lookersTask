@@ -1,0 +1,46 @@
+﻿@model BLL.WebApi.Models.ViewModels.CarFeaturesViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.AirConditioning)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AudioPlayer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HeatingSeats)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CupHolder)
+        </th>
+        <th></th>
+    </tr>
+
+    <tr>
+        <th>
+            @Html.Display(Model.AirConditioning.ToString())
+            @Model.AirConditioning.ToString()
+        </th>
+        <th>
+            @Html.Display(Model.AudioPlayer.ToString())
+            @Model.AudioPlayer.ToString()
+
+        </th>
+        <th>
+            @Html.Display(Model.HeatingSeats.ToString())
+            @Model.CupHolder.ToString()
+
+        </th>
+        <th>
+            @Html.Display(Model.CupHolder.ToString())
+            @Model.HeatingSeats.ToString()
+
+        </th>
+        <th></th>
+    </tr>
+</table>

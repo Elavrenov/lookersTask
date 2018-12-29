@@ -1,0 +1,6 @@
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.Interfaces\bin\Release\DAL.Interfaces.dll
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.Interfaces\bin\Release\DAL.Interfaces.pdb
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.Interfaces\obj\Release\DAL.Interfaces.csprojAssemblyReference.cache
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.Interfaces\obj\Release\DAL.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.Interfaces\obj\Release\DAL.Interfaces.dll
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.Interfaces\obj\Release\DAL.Interfaces.pdb

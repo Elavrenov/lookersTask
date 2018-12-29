@@ -1,0 +1,16 @@
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\bin\Release\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\bin\Release\DocumentDB.Spatial.Sql.dll
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\bin\Release\DAL.CosmosDb.dll.config
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\bin\Release\DAL.CosmosDb.dll
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\bin\Release\DAL.CosmosDb.pdb
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\bin\Release\DAL.Interfaces.dll
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\bin\Release\Microsoft.Azure.Documents.Client.dll
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\bin\Release\Newtonsoft.Json.dll
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\bin\Release\DAL.Interfaces.pdb
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\bin\Release\Microsoft.Azure.Documents.Client.xml
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\bin\Release\Newtonsoft.Json.xml
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\obj\Release\DAL.CosmosDb.csprojAssemblyReference.cache
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\obj\Release\DAL.CosmosDb.csproj.CoreCompileInputs.cache
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\obj\Release\DAL.CosmosDb.csproj.CopyComplete
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\obj\Release\DAL.CosmosDb.dll
+C:\Users\Yahor_Laurenau\Desktop\New project\BIZT NewTask\DAL.CosmosDb\obj\Release\DAL.CosmosDb.pdb
