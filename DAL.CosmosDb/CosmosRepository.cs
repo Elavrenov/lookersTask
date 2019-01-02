@@ -37,6 +37,7 @@ namespace DAL.CosmosDb
                         , ConfigurationManager.AppSettings["collectionId"]))
                 .AsDocumentQuery();
 
+
             List<Item> results = new List<Item>();
 
             while (query.HasMoreResults)
