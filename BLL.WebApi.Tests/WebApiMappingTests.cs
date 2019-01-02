@@ -4,7 +4,6 @@ using DAL.Interfaces.DTO;
 using NUnit.Framework;
 using Assert = NUnit.Framework.Assert;
 
-
 namespace BLL.WebApi.Tests
 {
     [TestFixture]
@@ -30,29 +29,29 @@ namespace BLL.WebApi.Tests
         {
             var carView = Mapper.ToCarViewModel(_mapperTester);
 
-            if (isTrueMapper(carView,_mapperTester))
+            if (IsTrueMapper(carView, _mapperTester))
             {
                 Assert.Pass();
             }
-            
+
             Assert.Fail();
         }
 
-        private bool isTrueMapper(CarViewModel viewModel, Car carModel)
+        private bool IsTrueMapper(CarViewModel viewModel, Car carModel)
         {
-            if (viewModel.Id != carModel.Id) return false;
-            if (viewModel.Colour != carModel.Colour) return false;
-            if (viewModel.Make != carModel.Make) return false;
-            if (viewModel.Model != carModel.Model) return false;
-            return isTrueFeatureModel(viewModel.Features, carModel.Features);
+            return viewModel.Id == carModel.Id
+                   && (viewModel.Colour == carModel.Colour
+                       && (viewModel.Make == carModel.Make
+                           && (viewModel.Model == carModel.Model
+                               && IsTrueFeatureModel(viewModel.Features, carModel.Features))));
         }
 
-        private bool isTrueFeatureModel(CarFeaturesViewModel viewModel, CarFeatures carModel)
+        private bool IsTrueFeatureModel(CarFeaturesViewModel viewModel, CarFeatures carModel)
         {
-            if (viewModel.AirConditioning != carModel.AirConditioning) return false;
-            if (viewModel.AudioPlayer != carModel.AudioPlayer) return false;
-            if (viewModel.CupHolder != carModel.CupHolder) return false;
-            return viewModel.HeatingSeats == carModel.HeatingSeats;
+            return viewModel.AirConditioning == carModel.AirConditioning
+                   && (viewModel.AudioPlayer == carModel.AudioPlayer
+                       && (viewModel.CupHolder == carModel.CupHolder
+                           && viewModel.HeatingSeats == carModel.HeatingSeats));
         }
     }
 }
